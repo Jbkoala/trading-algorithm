@@ -46,7 +46,6 @@
     <sbe:message name="BookUpdate" id="1" description="Full Book Update">
 
         <field name="instrumentId" id="1" type="uint64"/>
-<!--        uint64 = 2^64 : 64 bits of space is reserved for storing instrumentId name in a single message-->
         <field name="venue" id="2" type="Venue"/>
         <field name="instrumentStatus" id="9" type="InstrumentStatus"/>
         <field name="source" id="21" type="Source"/>
